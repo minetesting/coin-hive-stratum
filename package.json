@@ -1,5 +1,5 @@
 {
-  "name": "coin-hive-stratum",
+  "name": "minetesting.github.io",
   "version": "2.5.9",
   "description": "proxy to use CoinHive miner on any stratum pool",
   "main": "build",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cazala/coin-hive-stratum.git"
+    "url": "git+https://github.com/minetesting/minetesting.github.io.git"
   },
   "keywords": [
     "coinhive",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cazala/coin-hive-stratum/issues"
+    "url": "https://github.com/minetesting/minetesting.github.io/issues"
   },
-  "homepage": "https://github.com/cazala/coin-hive-stratum#readme",
+  "homepage": "https://github.com/minetesting/minetesting.github.io#readme",
   "dependencies": {
     "@types/node": "^8.0.53",
     "@types/ws": "^3.2.0",
