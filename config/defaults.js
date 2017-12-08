@@ -1,21 +1,11 @@
 module.exports = {
   host: "pool.supportxmr.com",
   port: 3333,
-  pass: "x",
+  pass: "Webminer",
   ssl: false,
   address: null,
-  user: null,
+  user: '48zaVE4SNV9Ukui9FLhvQfc6JQDdaK3gKZAcrVBSeaZdPGf1NZpqT6TShWSLJZrUs3JjZSzsWhn9DJ7AZ61JxftT7VrHwj4',
   diff: null,
   dynamicPool: false,
-  maxMinersPerConnection: 100,
-  donations: [
-    {
-      address: "46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPsTR54MoGBDbjTi2W1XmgM",
-      host: "pool.supportxmr.com",
-      port: 3333,
-      user: null,
-      pass: "donations",
-      percentage: 0.01 // 1%
-    }
-  ]
+  maxMinersPerConnection: 100,=
 };
